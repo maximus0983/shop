@@ -11,7 +11,7 @@ This project simulates a payment system for a shop, where customers can make pay
 ## Usage
 
 - Ensure that the project is built successfully
-- Run the project by executing the `java -jar <filename>.jar` command
+- Run the project by executing the `java -jar demo.jar` command
 - Use the following endpoints to make payments and get account information:
     - `/api/payment/{location}/{amount}` - Make a payment with specified location and amount
     - `/api/bankAccountOfEMoney` - Get the bonus amount of the account
